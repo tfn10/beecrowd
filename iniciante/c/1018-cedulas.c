@@ -5,7 +5,8 @@ int main(){
     int notas[6] = {100, 50, 20, 10, 5, 2};   
     
     scanf("%d", &numero);
-
+    printf("%d\n", numero);
+    
     resto = numero;
     for(i = 0; i < 6; i++){
         quantidade = resto / notas[i];
